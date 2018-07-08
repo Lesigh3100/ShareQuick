@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/navigation_radio_group_layout"
+    android:orientation="horizontal"
+    >
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/navigation_radio_group">
+
+        <RadioButton
+            style="@style/RadioButtonStyle"
+            android:id="@+id/navigation_radio_button_1"
+            android:text="@string/text_new_post"
+            android:checked="true"
+            />
+        <RadioButton
+            style="@style/RadioButtonStyle"
+            android:id="@+id/navigation_radio_button_2"
+            android:text="@string/text_edit_post"
+            />
+        <RadioButton
+            style="@style/RadioButtonStyle"
+            android:id="@+id/navigation_radio_button_3"
+            android:text="@string/text_saved_posts"
+            />
+    </RadioGroup>
+
+</LinearLayout>

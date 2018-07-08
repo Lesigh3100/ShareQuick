@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.NewPostFragment"
+    android:id="@+id/new_post_layout"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/new_post_text"
+        style="@style/TextDescriptions"
+        android:padding="12dp"
+        android:gravity="center"
+        android:text="@string/start_new_post_text"
+        />
+    <Button
+        android:id="@+id/new_post_button"
+        style="@style/EditPostButtonStyle"
+        android:paddingStart="12dp"
+        android:text="@string/new_post"
+        android:gravity="center"
+        />
+</LinearLayout>
+</FrameLayout>
