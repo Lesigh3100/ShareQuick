@@ -20,5 +20,8 @@ public class Constants {
     public final static int CODE_ONE_COLUMN = 1;
     public final static int CODE_TWO_COLUMNS = 2;
 
+    public final static int CODE_POST_PICTURE = 337;
+    public final static int CODE_POST_WHOLE_POST = 338;
+
     public final static String FILEPATH = "file://";
 }

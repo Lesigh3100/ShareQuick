@@ -30,16 +30,20 @@
     <EditText
         android:id="@+id/edit_post_title"
         style="@style/PostsText"
-        android:textSize="14sp"
+        android:textSize="16sp"
         android:hint="@string/title"
         android:autofillHints="@string/title"
+        android:maxLines="1"
+        android:lines="1"
+        android:inputType="text"
         />
     <EditText
         android:id="@+id/edit_post_body"
         style="@style/PostsText"
-        android:textSize="12sp"
+        android:textSize="14sp"
         android:hint="@string/body"
         android:autofillHints="@string/body"
+        android:inputType="text"
         />
 
     <Button

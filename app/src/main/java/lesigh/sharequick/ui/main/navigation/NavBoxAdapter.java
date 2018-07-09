@@ -38,11 +38,8 @@ public class NavBoxAdapter extends RecyclerView.Adapter<NavBoxAdapter.NavViewHol
 
     @Override
     public void onBindViewHolder(final NavViewHolder holder, int position) {
-        Log.d(TAG, "holder = null" + Boolean.toString(holder == null));
-        Log.d(TAG, "fragmentchoiceTextview = null " + Boolean.toString(holder.fragmentChoiceText == null));
         holder.mItem = mValues.get(position);
         holder.fragmentChoiceText.setText(mValues.get(position).getFragmentChoiceName());
-
         holder.mView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -30,13 +30,13 @@
     <TextView
         android:id="@+id/view_post_title"
         style="@style/PostsText"
-        android:textSize="14sp"
+        android:textSize="16sp"
         android:text="Title of the post will go here"
         />
     <TextView
         android:id="@+id/view_post_body"
         style="@style/PostsText"
-        android:textSize="12sp"
+        android:textSize="14sp"
         android:text="Body of the Post will go here. Lets see what it looks like if it's on the longer side."
         />
 
